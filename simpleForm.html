@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Form Page</title>
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<script src="input.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.css"></script>
+</head>
+<body onload="start()">
+	<form class="form-vertical" method="post" action="InputValues.java">
+	<div class="form-group">
+		
+		Username : <input id="myUsername" type="text" name="myUsername"/>
+		<br><br>
+		Role ID  : <input id="myRole" type="text" name="myRole"/><br><br>
+		User Application Name : <input id="myuser_appl_name" type="text" name="myuser_appl_name"/><br><br>
+		Sol ID : <input id="mysol_id" type="text" name="mysol_id"/><br><br>
+		User Workclass : <input id="myuser_work_class" type="text" name="myuser_work_class"><br><br>
+	
+		
+		<input type="checkbox" name="dpl dev1" value="dpl dev1" value="off" >DPL DEV1<br>
+		<input type="checkbox" name="dpl dev2" value="dpl dev2" value="off">DPL DEV2<br>
+		<input type="checkbox" name="dpl dev3" value="dpl dev3" value="off">DPL DEV3<br>
+		<input type="checkbox" name="dpl dev4" value="dpl dev4" value="off">DPL DEV4<br>
+		<input type="checkbox" name="dpl dev5" value="dpl dev5" value="off">DPL DEV5<br>
+		
+		<input class="btn btn-default" type="submit" value="Create User" />
+	</div>
+	</form>
+
+	
+	
+</body>
+</html>
